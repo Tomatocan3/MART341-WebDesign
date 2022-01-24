@@ -1,2 +1,2 @@
-# potato_can3
+# Takumi Yamamoto potato
 Repository for development
