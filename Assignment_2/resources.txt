@@ -1,5 +1,8 @@
-1. repository: a place where things are kept safely
-
-2. integral: forming a necessary part of something
-
-3. feasible: possible, and likely to work
+1,What is a directory, and what is its relationship to files?
+  Directory is a file, and also can be a tree's root. Each directory can have directories inside.
+  Directory can be grandparents or parents of a file.
+  
+2,How are VCS useful?
+  VCS help to recognize the difference between old and new and can back old version. The developer can make collaboration and sharing easier.
+  
+3,Do you have a favorite artistic medium? Why is it your favorite?
