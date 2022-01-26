@@ -1,2 +1,3 @@
 # Takumi Yamamoto potato
-Repository for development
+Repository for my Intro to Web Design homework
+
