@@ -30,6 +30,12 @@ body{
 
 }
 
+#first-bar {
+    margin-top: 4em;
+    padding: 1em;
+}
+
+
 #title:hover{
     letter-spacing: 1em;
     font-weight: 700;
@@ -88,4 +94,110 @@ body{
     margin: auto;
     width: 50%;
     padding-left: 100px
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: right;
+    font-family: Merriweather;
+    padding-right: 3em;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #559096;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: #e88f89;
+    margin: 1em .7em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    letter-spacing: 0.8em;
+    float: left;
+    font-weight: bold;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #f6e9bb;
+    color: #f6e9bb;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #2b2f46;
+    background-color: #f6e9bb ;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #000;
+    background-color: #f6e9bb;
+}
+
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #559096;
+    height: 3em;
+    text-align: center;
+    font-family:"Asthan";
+    padding-top: 1em;
+}
+
+#footer-link {
+    font-size: 20px ;
+    color: #333;
+    font-weight: bold;
 }

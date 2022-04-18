@@ -1,11 +1,9 @@
-1, This is a technique to arrange letters and text in a way that makes the copy legible, clear, and visually appealing to the reader.
+1, Margin is the space around an element's border.
+ Padding is the space between an element's border and the element's content.
+ The border property in CSS is used to style the border of an element.
 
-2, When a display system encounters a character that is not part of the repertoire of any of the other available fonts, a symbol from a fallback font is used instead.
-
-3, System fonts are the fonts already installed on your computer.
-   Web-safe fonts are fonts that can adapt to any browser on any device.
-   Web fonts are downloaded by the browser while rendering the web page, and then applied to the text.
+ 2, I did trials over hundreds times to find the position that I want to.
 
 
 
-[Screenshot](MART341-WebDesign\assignment-11\images\screenshots.png)
+[Screenshot](MART341-WebDesign\assignment-12\images\screenshots.png)
