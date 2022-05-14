@@ -1,0 +1,141 @@
+#header{
+    background-image: url("../images/PXL_20220223_223241913.jpg");
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: right;
+    font-family: Merriweather;
+    padding-right: 3em;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: #e88f89;
+    margin: 1em .7em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    letter-spacing: 0.8em;
+    float: left;
+    font-weight: bold;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: #f6e9bb;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #2b2f46;
+    background-color: #f6e9bb ;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #000;
+    background-color: #f6e9bb;
+}
+
+
+.dropdown:hover{
+    border-radius: 1
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-border {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  left: 240px
+}
+
+a.btn-border:hover {
+  color: #fff;
+  background: #000;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+
+}
